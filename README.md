@@ -6,9 +6,18 @@ I **do not** condone using this script on sites that don't allow you to scan for
 
 This is a simple script that checks for open ports for selected IP address.
 
-# ⌨️ Usage
+# 📔 Libraries used
 
-``python App.py IP_ADDRESS``
+* sys
+* requests
+* socket
+
+# 🏃 Running the application
+
+* Using python's interpreter in the Open-Port-Scanner/Scanner/ dir:
+```
+python App.py IP_ADDRESS
+```
 
 Wait for a bit and it will print out a list of open ports for you.
 
